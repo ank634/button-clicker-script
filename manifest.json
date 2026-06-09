@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "button-clicker-script",
+  "version": "1.0.0",
+  "description": "Press a shortcut to click all buttons",
+  "background": {
+    "service_worker": "src/background/background.js"
+  },
+  "commands": {
+    "click-all-passed-buttons": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X",
+        "mac": "Command+Shift+X"
+      },
+      "description": "Click the all passed buttons"
+    }
+  },
+  "permissions": ["activeTab", "scripting"]
+}
