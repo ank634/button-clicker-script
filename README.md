@@ -1,5 +1,3 @@
-# CX Alloy Script
-
 A Chrome extension that clicks the first `<button>` on the **active tab** when you press a keyboard shortcut.
 
 ## How it works
